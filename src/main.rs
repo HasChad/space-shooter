@@ -32,7 +32,7 @@ async fn main() {
             y -= 300.0 * get_frame_time();
         }
 
-        draw_circle(x, y, 15.0, YELLOW);
+        draw_circle(x, y, 15.0, WHITE);
         draw_text("move the ball with arrow keys", 20.0, 20.0, 20.0, WHITE);
         next_frame().await
     }
